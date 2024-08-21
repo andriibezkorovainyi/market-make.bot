@@ -1,0 +1,8 @@
+{
+  "currencyPairSymbol": "AVAX/USDT",
+  "frequencyMs": 10000,
+  "spread": 0.01,
+  "orderSize": 1,
+  "minQuantity": 0.5,
+  "maxQuantity": 10
+}

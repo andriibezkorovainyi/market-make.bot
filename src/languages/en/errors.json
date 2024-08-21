@@ -1,0 +1,61 @@
+{
+  "unauthorized": {
+    "tokenNotProvided": "Token is not provided.",
+    "tokenNotValid": "Token is not valid.",
+    "refreshTokenNotValid": "'Refresh token is not valid. Please re-login.",
+    "refreshTokenExpired": "Refresh token is expired. Please re-login."
+  },
+  "badRequest": {
+    "codeTokenExpired": "Code is expired.",
+    "wrongCredentials": "The email or password is incorrect. Please, try again or contact our support.",
+    "codeNotValid": "Code is not valid.",
+    "notSamePassword": "New password should not be the same.",
+    "unableResend": "Unable to resend.",
+    "unableResendNotMatch": "Unable to resend.",
+    "requiredFile": "There is no file",
+    "wrongEmailOtp": "Wrong email OTP",
+    "emailOtpExpired": "Email OTP expired",
+    "twoFaAlreadyEnabled": "2FA already enabled",
+    "shouldGenerate2FASecretFirst": "You should generate 2FA secret first"
+  },
+  "conflict": {
+    "alreadyExistsUserWithEmail": "User with that email already exists.",
+    "alreadySent": "Mail already sent. Please try again in {value} minute(s).",
+    "alreadySentCurrent": "Mail to current email already sent. Please try again in {value} minute(s).",
+    "alreadySentNew": "Mail to new email already sent. Please try again in {value} minute(s).",
+    "alreadyVerified": "User already verified."
+  },
+  "notFound": {
+    "notFoundUserWithEmail": "User with this email not found.",
+    "notFoundUserWithId": "User with this id not found.",
+    "notFoundOtp": "OTP not found."
+  },
+  "forbidden": {
+    "permissions": "You don't have permission to access this resource.",
+    "banned": "Your account has been blocked.",
+    "shouldVerifyKYC": "First you should go through KYC verification."
+  },
+  "internal": {
+    "default": "Something went wrong."
+  },
+  "throttler": {
+    "default": "Too Many Requests"
+  },
+  "imATeapot": {
+    "shouldVerify": "You should verify your email first. We sent you a message on your email."
+  },
+  "file": {
+    "tooManyParts": "Too many parts",
+    "tooLarge": "File too large",
+    "tooManyFiles": "Too many files",
+    "nameTooLong": "Field name too long",
+    "valueTooLong": "Field value too long",
+    "tooManyFields": "Too many fields",
+    "unexpectedField": "Unexpected file field",
+    "invalidFileType": "Invalid Image File Type",
+    "onlyImages": "Only images are allowed"
+  },
+  "payload": {
+    "payloadIsTooLarge": "Payload is too large"
+  }
+}

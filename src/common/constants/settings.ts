@@ -1,0 +1,1 @@
+export const CANCEL_ORDERS_CHUNK_SIZE = 15
